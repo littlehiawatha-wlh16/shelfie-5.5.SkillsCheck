@@ -1,0 +1,10 @@
+.Form {
+   background-color: #3ad886 ;
+   width: 450px;
+   height: 520px;
+   border-radius: 10px;
+}
+
+.formButton {
+   background-color: #ed6b5a;
+}

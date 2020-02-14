@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 
+import Header from './components/header/Header';
 import Dashboard from './components/dashboard/Dashboard';
 import Form from './components/form/Form';
-import Header from './components/header/Header';
+
 
 import './App.css';
+
 
 
 class App extends Component{
@@ -23,9 +25,11 @@ class App extends Component{
            
            App.js
 
-           <Dashboard />
-           <Form />
            <Header />
+           <section className='mainContent'>
+            <Dashboard />
+            <Form />
+           </section >
 
         </div>
      )
