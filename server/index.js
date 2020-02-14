@@ -11,8 +11,8 @@ app.use(express.json())
 
 // // ---------->End Points<---------nodemon crashes here------
 
-// app.get("/api/inventory", products_ctrl.getInventory);
-// app.post("/api/inventory",products_ctrl.createNewProduct);
+app.get("/api/inventory", products_ctrl.getInventory);
+// app.post("/api/inventory",products_ctrl.createNewProduct);     --------------------------> object undefined in the controllers section
 
 
 

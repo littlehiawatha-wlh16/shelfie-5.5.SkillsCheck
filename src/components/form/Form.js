@@ -34,7 +34,7 @@ class Form extends Component{
          <div className="Form">
             Form.js
             <div>
-               {/* <img src = "https://user-images.githubusercontent.com/101482/29592647-40da86ca-875a-11e7-8bc3-941700b0a323.png"/> */}
+               <img src = "https://user-images.githubusercontent.com/101482/29592647-40da86ca-875a-11e7-8bc3-941700b0a323.png" alt="place holder"/>
 
                <div>
                   <div>Image URL:</div>
